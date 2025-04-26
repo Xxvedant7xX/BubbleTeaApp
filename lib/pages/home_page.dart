@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.brown[100],
+      backgroundColor: Colors.brown[200],
       bottomNavigationBar: MYBottomNavBar(
         onTabChange: (index) => navigateBottomBar(index),
       ),
