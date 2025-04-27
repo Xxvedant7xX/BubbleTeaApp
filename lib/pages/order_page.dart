@@ -48,7 +48,15 @@ class _OrderPageState extends State<OrderPage> {
     Navigator.pop(context);
 
     // let user know it has been added successfully
-    
+    showDialog(
+      context: context, 
+      builder: (context) => AlertDialog(
+        title: Text('Successfully added to cart',
+        style: TextStyle(fontSize: 21,
+        ),
+        ),
+      ),
+      );
   }
 
   @override
